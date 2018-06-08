@@ -53,8 +53,8 @@ function total() {
   return total
 }
 
-function removeFromCart(item) {
-var obj; var key; var oldCart = cart; var itemName; var name;
+function removeFromCart(item) {}
+/*var obj; var key; var oldCart = cart; var itemName; var name;
 
   for (i = 0; i < cart.length; i++) {
     obj = cart[i]
@@ -68,7 +68,7 @@ var obj; var key; var oldCart = cart; var itemName; var name;
   } else {
     return cart
   }
-}
+}*/
 
 function placeOrder(cardNumber) {
   // write your code here
