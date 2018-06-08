@@ -35,12 +35,12 @@ function viewCart() {
       wordCart.push(` and ${obj[key[0]]} at $${obj[key[1]]}`)
     } else {
 
-    wordCart.push(`${obj[key[0]]} at $${obj[key[1]]}`)
+    wordCart.push(` ${obj[key[0]]} at $${obj[key[1]]}`)
 }
 
 
   }
-  return `In your cart, you have ${wordCart}.`
+  return `In your cart, you have${wordCart}.`
 }
 }
 
