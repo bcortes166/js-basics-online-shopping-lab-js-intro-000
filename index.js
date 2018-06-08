@@ -31,7 +31,7 @@ function viewCart() {
     obj = cart[i]
     key = Object.keys(obj)
 
-    wordCart.push(`you have ${key} at $${obj.key}`)
+    wordCart.push(`${key} at $${obj.key}`)
   }
   return `In your cart, you have ${wordCart}`
 }
