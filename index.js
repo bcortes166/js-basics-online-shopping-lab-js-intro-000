@@ -68,7 +68,7 @@ var obj; var key; var oldCart = cart; var itemName; var name;
   } else {
     return cart
   }
-
+}
 
 function placeOrder(cardNumber) {
   // write your code here
