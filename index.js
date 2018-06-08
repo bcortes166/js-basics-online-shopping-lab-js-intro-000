@@ -24,7 +24,7 @@ function addToCart(item) {
 function viewCart() {
   var wordCart = []; var obj; var key; var wordCart = [];
 
-  if (cart.length) === 0 {
+  if (cart.length === 0) {
     return 'Your shopping cart is empty.'
   } else {
   for (i = 0; i < cart.length ; i++) {
