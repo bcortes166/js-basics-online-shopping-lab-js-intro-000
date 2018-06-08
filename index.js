@@ -5,7 +5,7 @@ var randNum = () => {
       return n
     }
 }
-
+var i;
 
 function getCart() {
  return cart;
@@ -22,7 +22,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // write your code here
+  for (i = )
 }
 
 function total() {
