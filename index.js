@@ -22,12 +22,14 @@ function addToCart(item) {
 }
 
 function viewCart() {
+  var wordCart = [];
   if cart.length === 0 {
     return 'Your shopping cart is empty.'
   } else {
   for (i = 0; i < cart.length ; i++) {
-    
+    wordCart.push(`${}`)
   }
+  return `In your cart, you have ${wordCart}`
 }
 }
 
