@@ -50,7 +50,7 @@ function total() {
     key = Object.keys(obj)
     total = total + obj[key[1]]
   }
-  return total 
+  return total
 }
 
 function removeFromCart(item) {
@@ -58,10 +58,8 @@ var obj; var key;
   for (i = 0; i < cart.length; i++) {
     obj = cart[i]
     name = obj[itemName]
-    if () {
-      
-    } else {
-      
+    if (name === item) {
+      cart.splice(i, 1)
     }
   }
 }
