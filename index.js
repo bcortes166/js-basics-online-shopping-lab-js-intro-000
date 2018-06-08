@@ -23,26 +23,25 @@ function addToCart(item) {
 
 function viewCart() {
   var wordCart = []; var obj; var key; var wordCart = [];
-
   if (cart.length === 0) {
     return 'Your shopping cart is empty.'
   } else {
-  for (i = 0; i < cart.length ; i++) {
-    obj = cart[i]
-    key = Object.keys(obj)
+            for (i = 0; i < cart.length ; i++) {
+                obj = cart[i]
+                key = Object.keys(obj)
 
-    if (i === cart.length - 1 && cart.length > 1) {
-      wordCart.push(` and ${obj[key[0]]} at $${obj[key[1]]}`)
-    } else {
+                  if (i === cart.length - 1 && cart.length > 1) {
+                      wordCart.push(` and ${obj[key[0]]} at $${obj[key[1]]}`)
+            } else {
 
-    wordCart.push(` ${obj[key[0]]} at $${obj[key[1]]}`)
-}
+                      wordCart.push(` ${obj[key[0]]} at $${obj[key[1]]}`)
+                  }
 
 
   }
   return `In your cart, you have${wordCart}.`
 }
-}
+          }
 
 function total() {
   // write your code here
