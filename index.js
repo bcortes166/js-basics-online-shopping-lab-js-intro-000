@@ -1,6 +1,6 @@
 var cart = [];
 var randNum = () => {
-    var n = Math.floor(Math.random()*100) 
+    var n = Math.floor(Math.random()*100)
     if (n > 0) {
       return n
     }
