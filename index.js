@@ -22,16 +22,16 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  var wordCart = []; var obj; var keys; var wordCart = [];
+  var wordCart = []; var obj; var key; var wordCart = [];
 
   if cart.length === 0 {
     return 'Your shopping cart is empty.'
   } else {
   for (i = 0; i < cart.length ; i++) {
     obj = cart[i]
-    keys = Object.keys(obj)
+    key = Object.keys(obj)
 
-    wordCart.push(`${}`)
+    wordCart.push(`you have ${key} at $${obj.key}`)
   }
   return `In your cart, you have ${wordCart}`
 }
