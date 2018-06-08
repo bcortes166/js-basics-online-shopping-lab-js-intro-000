@@ -33,7 +33,7 @@ function viewCart() {
 
     wordCart.push(`${obj[key[0]]} at $${obj[key[1]]}`)
   }
-  return `In your cart, you have ${wordCart}`
+  return `In your cart, you have ${wordCart}.`
 }
 }
 
