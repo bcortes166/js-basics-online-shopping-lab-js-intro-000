@@ -31,7 +31,14 @@ function viewCart() {
     obj = cart[i]
     key = Object.keys(obj)
 
+    if (i === cart.length - 1) {
+      
+    }
+
     wordCart.push(`${obj[key[0]]} at $${obj[key[1]]}`)
+
+
+
   }
   return `In your cart, you have ${wordCart}.`
 }
