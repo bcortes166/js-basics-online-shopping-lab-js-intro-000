@@ -17,7 +17,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- cart = [{itemName: item, itemPrice: randNum()}]
+ cart = [...cart, {itemName: item, itemPrice: randNum()}]
 }
 
 function viewCart() {
