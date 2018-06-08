@@ -53,7 +53,7 @@ function total() {
   return total
 }
 
-function removeFromCart(item) {console.log(cart)}
+function removeFromCart(item) {return cart}
 /*var obj; var key; var oldCart = cart; var itemName; var name;
 
   for (i = 0; i < cart.length; i++) {
