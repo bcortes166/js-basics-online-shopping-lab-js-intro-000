@@ -18,6 +18,7 @@ function setCart(c) {
 
 function addToCart(item) {
  cart = [{itemName: item, itemPrice: randNum()}]
+ console.log(cart)
 }
 
 function viewCart() {
