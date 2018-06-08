@@ -65,7 +65,9 @@ var obj; var key; var oldCart = cart; var itemName; var name;
   }
   if (oldCart === cart) {
     return 'That item is not in your cart.'
-  } 
+  } else {
+    return cart
+  }
 }
 
 function placeOrder(cardNumber) {
