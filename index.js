@@ -31,7 +31,7 @@ function viewCart() {
     obj = cart[i]
     key = Object.keys(obj)
 
-    if (i === cart.length - 1) {
+    if (i === cart.length - 1 && cart.length > 1) {
       wordCart.push(`and ${obj[key[0]]} at $${obj[key[1]]}`)
     } else {
 
