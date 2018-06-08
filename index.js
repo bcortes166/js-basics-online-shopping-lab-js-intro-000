@@ -1,4 +1,11 @@
 var cart = [];
+var randNum = () => {
+    var n = Math.floor(Math.random()*100) 
+    if (n > 0) {
+      return n
+    }
+}
+
 
 function getCart() {
  return cart;
@@ -10,7 +17,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- // write your code here
+ cart = {itemName: item, itemPrice:  }
 }
 
 function viewCart() {
