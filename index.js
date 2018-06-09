@@ -64,7 +64,7 @@ function removeFromCart(item) {
     }
   }
   if (n = 0) {
-    retrun 'That item is not in your cart.'
+    return 'That item is not in your cart.'
   }
 }
 
