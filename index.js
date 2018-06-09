@@ -53,7 +53,7 @@ function total() {
   return total
 }
 
-/*function removeFromCart(item) {
+function removeFromCart(item) {
   var i = 0;
   while (i < cart.length) {
     if (cart[i]['itemName'] === item) {
@@ -62,7 +62,7 @@ function total() {
       i++
     }
   }
-} */
+}
 
 function placeOrder(cardNumber) {
   // write your code here
